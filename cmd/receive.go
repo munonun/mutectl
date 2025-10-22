@@ -119,6 +119,8 @@ func must(err error) {
 	}
 }
 
+// 이 아래의 ECC 키들은 모두 다 example임을 밝힙니다.
+
 var testCert = []byte(`-----BEGIN CERTIFICATE-----
 MIIBYTCCAQegAwIBAgIQNKnZ4XcCwvhHVqGzWbGx6DAKBggqhkjOPQQDAjASMRAw
 DgYDVQQKEwdNdXRlTmV0MB4XDTI1MTAxNzAwMDAwMFoXDTM1MTAxNDAwMDAwMFow
