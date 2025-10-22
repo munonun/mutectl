@@ -15,7 +15,7 @@ import (
 	"github.com/spf13/cobra"
 )
 
-var rootIP = "49.165.195.192" // 루트 부트스트랩 IP 지정
+var rootIP = "<Root IP>" // 루트 부트스트랩 IP 지정
 var rootPort = 8787
 
 var pushCmd = &cobra.Command{
